@@ -20,7 +20,7 @@ const port = process.env.PORT || 8000
 const start = async () => {
     await connect()
     app.listen(port, () => {
-        console.log(process.env.SERVER_PORT);
+        // console.log(process.env.SERVER_PORT);
         console.log("Hurray!! listening to port no ", port);
     })
 }
